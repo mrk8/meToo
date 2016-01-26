@@ -12,6 +12,7 @@
 	color: white;
 	text-shadow: 1px 1px #000000;
 	font-size: 1em;
+	font-family: 'Lato', sans-serif;
 	background-color:black;
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bg.jpg);
 	/*background-image: url(../img/bg.jpg);*/
@@ -41,13 +42,29 @@
 
 .header{
 	margin: 15px 0 0 0;
+}
+.logo {
+	margin: -10px 10px 0 0;
+	/*width: 50px;*/
+	float: left;
 
 }
-
 .title{
 	font-size: 1.5em;
 	float: left;
 
+}
+.headline{
+	position: relative;
+	z-index: 1;
+	font-size: 1.3em;
+	text-align: left;
+	
+	font-weight: bold;
+}
+.donateToday{
+
+	margin-right: 15px;
 }
 .paragraph{
 	text-align: left;
@@ -146,8 +163,15 @@ donateNav ul ul li {
 	float: left;
 }
 .subForm{
-	margin: 25px 0 0 0;
+	margin: 0 0 0 0;
 	width: 100%;
+	/*background-color: #ccc;	*/
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	height: 100%;
+}
+h1 {
+	padding: 10px 0 0 0;
+
 }
 .subFormInput{
 	width: 90%;
