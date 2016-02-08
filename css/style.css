@@ -30,10 +30,19 @@
 	margin: auto;
 	padding: 0;
 }
+.header{
+	margin: 15px 0 0 0;
+}
+.header:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 .content{
 	clear: both;
 	border-top: 1px solid #ccc;
-	margin: 80px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 	width: 100%
 	
 }
@@ -52,9 +61,8 @@
 	
 }
 
-.header{
-	margin: 15px 0 0 0;
-}
+
+
 .logo {
 	margin: -10px 10px 0 0;
 	/*width: 50px;*/
